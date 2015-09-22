@@ -22,20 +22,29 @@ Slack: https://dt508-gameprogramming.slack.com/
 
 # Semester 1
 
-## Week 2
+## Week 1
+## Lecture
+* [Introduction slides](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!263972&authkey=!AK1asYNZOHgqEC0&ithint=file%2cpptx)
+* [The program we wrote in class](processing/intro/intro.pde)
+* [The contract for this course](http://1drv.ms/1DbmnG9)
 
-## Lecture 2
-- [Processing sketch with a face that moves from left to right and back again using the if statement](processing/leftrightface)
-- Data types, the if statement and dynamic sketches in Processing video (from last year)
-  
-  [![YouTube](http://img.youtube.com/vi/Y0b9W3UJ2BU/0.jpg)](https://www.youtube.com/watch?v=Y0b9W3UJ2BU)
-- The best of this weeks videos (incomplete making the moving smiley face video)
+Procedurally generated minnowforms video:
 
- [![YouTube](http://img.youtube.com/vi/Wr_Ev0Xqh_U/0.jpg)](https://www.youtube.com/watch?v=Wr_Ev0Xqh_U)
+[![YouTube](http://img.youtube.com/vi/5G-PKD5GnlE/0.jpg)](https://www.youtube.com/watch?v=5G-PKD5GnlE)
 
+NILL - One of my game jam games. It uses lots of nice come sci stuff like Perlin noise, procedural generation and binary search
 
-## Lab 1
+[![YouTube](http://img.youtube.com/vi/RkReFavQbQo/0.jpg)](https://www.youtube.com/watch?v=RkReFavQbQo)
 
+[NILL Sourcecode](http://github.com/skooter500/NILL)
+
+Some Processing assignments from previous years: 
+
+[![YouTube](http://img.youtube.com/vi/S575a92AsuQ/0.jpg)](https://www.youtube.com/watch?v=S575a92AsuQ)
+
+[![YouTube](http://img.youtube.com/vi/wAEABphUJB8/0.jpg)](https://www.youtube.com/watch?v=wAEABphUJB8)
+
+##Lab
 ### Learning Outcomes
 - Sign up for the class Slack
 - Become familiar with the syntax of Processing
@@ -61,25 +70,19 @@ Try experimenting with colours!
 
 Feel free to experiment with colour!  
 
-When you are finished with thes exercises, [log onto webcourses](http://dit.ie/webcourses) and complete the MCQ for this week
+When you are finished with these exercises, [log onto webcourses](http://dit.ie/webcourses) and complete the MCQ for this week
 
-## Lecture 1
-* [Introduction slides](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!263972&authkey=!AK1asYNZOHgqEC0&ithint=file%2cpptx)
-* [The program we wrote in class](processing/intro/intro.pde)
-* [The contract for this course](http://1drv.ms/1DbmnG9)
+## Week 2
 
-Procedurally generated minnowforms video:
+## Lecture 2
+- [Processing sketch with a face that moves from left to right and back again using the if statement](processing/leftrightface)
+- Data types, the if statement and dynamic sketches in Processing video (from last year)
+  
+  [![YouTube](http://img.youtube.com/vi/Y0b9W3UJ2BU/0.jpg)](https://www.youtube.com/watch?v=Y0b9W3UJ2BU)
+- The best of this weeks videos (incomplete making the moving smiley face video)
 
-[![YouTube](http://img.youtube.com/vi/5G-PKD5GnlE/0.jpg)](https://www.youtube.com/watch?v=5G-PKD5GnlE)
+ [![YouTube](http://img.youtube.com/vi/Wr_Ev0Xqh_U/0.jpg)](https://www.youtube.com/watch?v=Wr_Ev0Xqh_U)
 
-NILL - One of my game jam games. It uses lots of nice come sci stuff like Perlin noise, procedural generation and binary search
 
-[![YouTube](http://img.youtube.com/vi/RkReFavQbQo/0.jpg)](https://www.youtube.com/watch?v=RkReFavQbQo)
 
-[NILL Sourcecode](http://github.com/skooter500/NILL)
 
-Some Processing assignments from previous years: 
-
-[![YouTube](http://img.youtube.com/vi/S575a92AsuQ/0.jpg)](https://www.youtube.com/watch?v=S575a92AsuQ)
-
-[![YouTube](http://img.youtube.com/vi/wAEABphUJB8/0.jpg)](https://www.youtube.com/watch?v=wAEABphUJB8)
