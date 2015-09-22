@@ -1,5 +1,4 @@
-DT228-OOP
-=========
+# DT508 Game Programming
 
 Resources
 ---------
@@ -22,6 +21,19 @@ Twitter: [@skooter500](http://twitter.com/skooter500)
 Slack: https://dt508-gameprogramming.slack.com/
 
 # Semester 1
+
+## Week 2
+
+## Lecture 2
+- [Processing sketch with a face that moves from left to right and back again using the if statement](processing/leftrightface)
+- Data types, the if statement and dynamic sketches in Processing video (from last year)
+  
+  [![YouTube](http://img.youtube.com/vi/Y0b9W3UJ2BU/0.jpg)](https://www.youtube.com/watch?v=Y0b9W3UJ2BU)
+
+ * The best of this weeks videos (incomplete making the moving smiley face video)
+
+   [![YouTube](http://img.youtube.com/vi/Wr_Ev0Xqh_U/0.jpg)](https://www.youtube.com/watch?v=Wr_Ev0Xqh_U)
+
 
 ## Lab 1
 
