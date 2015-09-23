@@ -15,34 +15,28 @@ Resources
 
 ## Contact the lecturer
 Email: bryan.duggan@dit.ie
-
 Twitter: [@skooter500](http://twitter.com/skooter500)
-
 Slack: https://dt508-gameprogramming.slack.com/
 
-# Semester 1
-
-## Week 1
+# Week 1
 ## Lecture
-* [Introduction slides](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!263972&authkey=!AK1asYNZOHgqEC0&ithint=file%2cpptx)
-* [The program we wrote in class](processing/intro/intro.pde)
-* [The contract for this course](http://1drv.ms/1DbmnG9)
+- [Introduction slides](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!263972&authkey=!AK1asYNZOHgqEC0&ithint=file%2cpptx)
+- [The program we wrote in class](processing/intro/intro.pde)
+- [The contract for this course](http://1drv.ms/1DbmnG9)
+- Procedurally generated minnowforms video:
+	[![YouTube](http://img.youtube.com/vi/5G-PKD5GnlE/0.jpg)](https://www.youtube.com/watch?v=5G-PKD5GnlE)
 
-Procedurally generated minnowforms video:
+- NILL - One of my game jam games. It uses lots of nice come sci stuff like Perlin noise, procedural generation and binary search
 
-[![YouTube](http://img.youtube.com/vi/5G-PKD5GnlE/0.jpg)](https://www.youtube.com/watch?v=5G-PKD5GnlE)
+	[![YouTube](http://img.youtube.com/vi/RkReFavQbQo/0.jpg)](https://www.youtube.com/watch?v=RkReFavQbQo)
 
-NILL - One of my game jam games. It uses lots of nice come sci stuff like Perlin noise, procedural generation and binary search
+- [NILL Sourcecode](http://github.com/skooter500/NILL)
 
-[![YouTube](http://img.youtube.com/vi/RkReFavQbQo/0.jpg)](https://www.youtube.com/watch?v=RkReFavQbQo)
+- Some Processing assignments from previous years: 
 
-[NILL Sourcecode](http://github.com/skooter500/NILL)
+	[![YouTube](http://img.youtube.com/vi/S575a92AsuQ/0.jpg)](https://www.youtube.com/watch?v=S575a92AsuQ)
 
-Some Processing assignments from previous years: 
-
-[![YouTube](http://img.youtube.com/vi/S575a92AsuQ/0.jpg)](https://www.youtube.com/watch?v=S575a92AsuQ)
-
-[![YouTube](http://img.youtube.com/vi/wAEABphUJB8/0.jpg)](https://www.youtube.com/watch?v=wAEABphUJB8)
+	[![YouTube](http://img.youtube.com/vi/wAEABphUJB8/0.jpg)](https://www.youtube.com/watch?v=wAEABphUJB8)
 
 ##Lab
 ### Learning Outcomes
@@ -72,17 +66,29 @@ Feel free to experiment with colour!
 
 When you are finished with these exercises, [log onto webcourses](http://dit.ie/webcourses) and complete the MCQ for this week
 
-## Week 2
-
-## Lecture 2
+# Week 2
+## Lecture
 - [Processing sketch with a face that moves from left to right and back again using the if statement](processing/leftrightface)
-- Data types, the if statement and dynamic sketches in Processing video (from last year)
-  
+- Data types, the if statement and dynamic sketches in Processing video (from last year)  
+
   [![YouTube](http://img.youtube.com/vi/Y0b9W3UJ2BU/0.jpg)](https://www.youtube.com/watch?v=Y0b9W3UJ2BU)
-- The best of this weeks videos (incomplete making the moving smiley face video)
+
+  - The best of this weeks videos (incomplete making the moving smiley face video)
 
  [![YouTube](http://img.youtube.com/vi/Wr_Ev0Xqh_U/0.jpg)](https://www.youtube.com/watch?v=Wr_Ev0Xqh_U)
+ 
+## Lab
+### Learning Outcomes
+- Practice using variables in your sketches
+- Practice using the if statement
+- Practice constructing algorithms to solve problems
 
+### Part 1
+Take the smiley face program we wrote and modify it so that there are no hard-coded numbers used as parameters for any of the methods. Instead, replace them all with variables and offsets from variables. Also make the face always fill the full size of the Processing window, whatever that is set to. For example your sketch should fill the full window at 500 x500 and also at 1000 x 1000, so you have to calculate everything relative to the width and height of the window.
 
+### Part 2
+In the class we used the if statement to get the face to move from left top right across the screen and back again. Here is a [link to that sketch](processing/leftrightface). Try and modify that sketch so that the face starts in the middle of the screen and then moves around the outside of the screen. This is a little trickey to get right. You should < > in your if statement and if the face goes beyond the bounds of the window, you need to move it back inside the window. Here is a video of what your sketch should look like:
 
+[![YouTube](http://img.youtube.com/vi/Y0b9W3UJ2BU/0.jpg)](https://www.youtube.com/watch?v=2L1VvonXAg8)
 
+Login to Webcourses and do the MCQ for today
