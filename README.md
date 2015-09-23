@@ -89,6 +89,6 @@ Take the smiley face program we wrote and modify it so that there are no hard-co
 ### Part 2
 In the class we used the if statement to get the face to move from left top right across the screen and back again. Here is a [link to that sketch](processing/leftrightface). Try and modify that sketch so that the face starts in the middle of the screen and then moves around the outside of the screen. This is a little trickey to get right. You should < > in your if statement and if the face goes beyond the bounds of the window, you need to move it back inside the window. Here is a video of what your sketch should look like:
 
-[![YouTube](http://img.youtube.com/vi/Y0b9W3UJ2BU/0.jpg)](https://www.youtube.com/watch?v=2L1VvonXAg8)
+[![YouTube](http://img.youtube.com/vi/2L1VvonXAg8/0.jpg)](https://www.youtube.com/watch?v=2L1VvonXAg8)
 
 Login to Webcourses and do the MCQ for today
