@@ -92,3 +92,6 @@ In the class we used the if statement to get the face to move from left top righ
 [![YouTube](http://img.youtube.com/vi/2L1VvonXAg8/0.jpg)](https://www.youtube.com/watch?v=2L1VvonXAg8)
 
 Login to Webcourses and do the MCQ for today
+
+- [Solution to Part 1 submitted by Tomas Ruiz Penin](processing/stretchface1)
+- [Solution to part 2](processing/facearoundthewall)
