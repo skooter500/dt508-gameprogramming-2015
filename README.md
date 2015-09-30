@@ -113,7 +113,7 @@ Login to Webcourses and do the MCQ for today
 	
 	Important
 	
-	- Declare varibles for all the values you know and need to calculate in order to solve this problem
+	- Declare varibles for all the values you need in order to solve this problem
 	- Assign values to the variables that you know
 	- Calculate the values that you don't know
 	- Dont forget to convert to radians before you use sin, cos, tan methods  (use the method radians)
