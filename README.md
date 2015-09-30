@@ -100,12 +100,7 @@ Login to Webcourses and do the MCQ for today
 ## Lecture
 - Variables & trigonometry:
 
-
-
-
-
-
-	[![YouTube](http://img.youtube.com/vi/xkK5C7Xfx80/0.jpg)](https://www.youtube.com/watch?v=xkK5C7Xfx80)
+[![YouTube](http://img.youtube.com/vi/xkK5C7Xfx80/0.jpg)](https://www.youtube.com/watch?v=xkK5C7Xfx80)
 
 	- [The trigonometry problem we worked on in the class](processing/kitetriangle) 
 
