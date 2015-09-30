@@ -98,7 +98,12 @@ Login to Webcourses and do the MCQ for today
 
 # Week 3
 ## Lecture
-- Variables & trigonometry
+- Variables & trigonometry:
+
+
+
+
+
 
 	[![YouTube](http://img.youtube.com/vi/xkK5C7Xfx80/0.jpg)](https://www.youtube.com/watch?v=xkK5C7Xfx80)
 
