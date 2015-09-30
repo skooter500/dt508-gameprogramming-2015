@@ -95,3 +95,24 @@ Login to Webcourses and do the MCQ for today
 
 - [Solution to Part 1 submitted by Tomas Ruiz Penin](processing/stretchface1)
 - [Solution to part 2](processing/facearoundthewall)
+
+# Week 3
+## Lecture
+- Variables & trigonometry
+	[![YouTube](http://img.youtube.com/vi/xkK5C7Xfx80/0.jpg)](https://www.youtube.com/watch?v=xkK5C7Xfx80)
+- [The trigonometry problem we worked on in the class](processing/kitetriangle) 
+
+## Lab
+- [Try solving some of these trigonometry problems on pen and paper](http://www.tippcityschools.com/cms/lib6/OH01000855/Centricity/Domain/111/Acc%20Geom%20eDay%201.pdf)
+
+- Solve this trigonometry problem using pen and paper and write a Processing sketch to solve it and draw the problem:
+	A person is standing 200m from the base of a building looking up at the top of the building through a telescope. The telescope is tilted 48 degrees off the ground. How high is the building?
+	
+	Important!
+	
+	- Declare varibles for all the values you need to solve this problem
+	- Assign values to the variables that you know
+	- Calculate the values that you don't know
+	- Calculate the positions of the vertices (corners) of the triangle
+	
+Upload images of your sketches to the slack. Log onto webcourses and complete today's MCQ
