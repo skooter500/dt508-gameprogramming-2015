@@ -99,20 +99,26 @@ Login to Webcourses and do the MCQ for today
 # Week 3
 ## Lecture
 - Variables & trigonometry
+
 	[![YouTube](http://img.youtube.com/vi/xkK5C7Xfx80/0.jpg)](https://www.youtube.com/watch?v=xkK5C7Xfx80)
-- [The trigonometry problem we worked on in the class](processing/kitetriangle) 
+
+	- [The trigonometry problem we worked on in the class](processing/kitetriangle) 
 
 ## Lab
 - [Try solving some of these trigonometry problems on pen and paper](http://www.tippcityschools.com/cms/lib6/OH01000855/Centricity/Domain/111/Acc%20Geom%20eDay%201.pdf)
 
-- Solve this trigonometry problem using pen and paper and write a Processing sketch to solve it and draw the problem:
+- Solve this trigonometry problem using pen and paper FIRST. Write a Processing sketch to solve it and draw the problem. In your solution, print the valuse for theta, o, a, and h to the screen:
+
 	A person is standing 200m from the base of a building looking up at the top of the building through a telescope. The telescope is tilted 48 degrees off the ground. How high is the building?
 	
-	Important!
+	Important
 	
-	- Declare varibles for all the values you need to solve this problem
+	- Declare varibles for all the values you know and need to calculate in order to solve this problem
 	- Assign values to the variables that you know
 	- Calculate the values that you don't know
-	- Calculate the positions of the vertices (corners) of the triangle
+	- Dont forget to convert to radians before you use sin, cos, tan methods  (use the method radians)
+
+Advanced
+- Use the mouse to vary the distance of the base of the building
 	
 Upload images of your sketches to the slack. Log onto webcourses and complete today's MCQ
