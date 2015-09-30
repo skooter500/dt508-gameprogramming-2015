@@ -102,7 +102,7 @@ Login to Webcourses and do the MCQ for today
 
 [![YouTube](http://img.youtube.com/vi/xkK5C7Xfx80/0.jpg)](https://www.youtube.com/watch?v=xkK5C7Xfx80)
 
-	- [The trigonometry problem we worked on in the class](processing/kitetriangle) 
+- [The trigonometry problem we worked on in the class](processing/kitetriangle) 
 
 ## Lab
 - [Try solving some of these trigonometry problems on pen and paper](http://www.tippcityschools.com/cms/lib6/OH01000855/Centricity/Domain/111/Acc%20Geom%20eDay%201.pdf)
