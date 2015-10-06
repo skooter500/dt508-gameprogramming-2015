@@ -122,3 +122,39 @@ Advanced
 - Use the mouse to vary the distance of the base of the building
 	
 Upload images of your sketches to the slack. Log onto webcourses and complete today's MCQ
+
+# Week 4
+
+## Lecture
+
+- [Program we wrote to draw a spiral](processing/spiral)
+- [Program plot the sine wave](processing/sinewave)
+
+## Lab
+- Here is a little Processing sketch I wrote that does something nice with the sine wave. Click the image to see the video. I could probably do more cool stuff with it.
+
+[![YouTube](http://img.youtube.com/vi/uEGCKBTZL0c/0.jpg)](https://www.youtube.com/watch?v=uEGCKBTZL0c)
+
+
+Today we are having a Spiral Jam
+
+- What I want you to do it:
+	- Form a team of no more than three people. Just the people sitting next to you is fine! Thats how it is in the real world. You just have to work with whoever and make it work.
+	- Firstly, go through the examples from the class and explain them to each other to make sure you all understand what is happening.
+	- Now I want you to design a spiral or similar shape of your teams design. Just using the stuff we have learned in the class. In your spiral design, you can use
+		- Variables
+		- sin, cos, tan
+		- angles
+		- Variable operations like addition, subtraction etc 
+		- Colour methods and random colours
+		- line, ellipse, rect etc.
+	- Before you write any code decide using pen and paper:	
+		- What variables you need
+		- Whether the variables should be local or global
+		- What happens to the variables each frame (what operations to perform)
+		- What to draw
+		- What decisions your program has to make - what if statements you need
+		
+A gold star to the team that produces the sketch of the best design and complexity. Think simplicity in the design of your code and only use the minimum onumber of variables to solve your problem. 
+		
+Upload your sketches to the Slack!
