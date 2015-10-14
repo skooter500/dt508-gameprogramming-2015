@@ -158,3 +158,34 @@ Today we are having a Spiral Jam
 A gold star to the team that produces the sketch of the best design and complexity. Think simplicity in the design of your code and only use the minimum onumber of variables to solve your problem. 
 		
 Upload your sketches to the Slack!
+
+# Week 5
+## Lecture
+- Bugzap!
+- Here is a video of what the finished game looks like:
+
+## Lab
+
+Complete Bugzap! When we finished up in the lecture, we had the player drawn, player movement and had started drawing the bug. To complete the game, you need to add:
+
+- Bug drawing. This will be similar to how we drew the player
+- Bug movement. This is an interesting problem. If you look at the video you will see that every bug interval, the bug moves a random offset to the left or right. Just use the random method in Processing to add to the bug's x coordinate. Make sure the bug doesn't go outside the bounds of the window. To make this happen on an interval, I used the following code:
+
+	```C#
+	if (frameCount % frame == 0)
+	{
+		// Move the bug
+		frame --;
+	}
+	```
+ 
+ ```frameCount``` is a built in variable in Processing that tells you what frame you are on. At the start of the sketch, this will be 0 and then this variable advances by 1 each frame that gets drawn. Processing looks after doing this. You don't have to worry about it. I set the value of the frame variable to be 60. The % operator is called the modulo operator and it means the remainder when frameCount is divided by frame. This will cause the code to get executed once a second. I subtract 1 from frame to cause the bug to speed up. Every time I shoot the bug, I reset this variable back to 60. See [this article for more information on the modulo operator](https://processing.org/reference/modulo.html) and how it is used.    
+ 
+- Shooting & scoring. Just draw a line for shooting. The line should be drawn to the top of the screen, or to to the bug's Y position if we are under the bug. Use an if statement to check to see if the player is under the bug and if so, add one to the score and reset the bug's position and the frame variable. 
+
+Advanced!
+- Add a splash screen and a game over screen
+- If you want to add sound effects, I made mine using [BFXR](http://www.bfxr.net/). [This tutorial will explain how to use the Minim library to play sound effects in Processing](http://code.compartmental.net/tools/minim/quickstart/).
+- Print the score to the screen. This tutorial explains how to print text using diffferent fonts. Alternatively, I used [this cool Processing library to draw those nice vector fonts](http://www.foobarquarium.de/blog/processing/MovingLetters/).
+
+Upload screenshots of your sketches to the slack and log on to Webcourses and do the MCQ for today.
