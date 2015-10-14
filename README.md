@@ -161,8 +161,10 @@ Upload your sketches to the Slack!
 
 # Week 5
 ## Lecture
-- Bugzap!
+- [Bugzap Code](processing/bugzap)!
 - Here is a video of what the finished game looks like:
+
+[![YouTube](http://img.youtube.com/vi/1If-kPm6MzM/0.jpg)](https://www.youtube.com/watch?v=1If-kPm6MzM)
 
 ## Lab
 
@@ -185,7 +187,7 @@ Complete Bugzap! When we finished up in the lecture, we had the player drawn, pl
 
 Advanced!
 - Add a splash screen and a game over screen
-- If you want to add sound effects, I made mine using [BFXR](http://www.bfxr.net/). [This tutorial will explain how to use the Minim library to play sound effects in Processing](http://code.compartmental.net/tools/minim/quickstart/).
-- Print the score to the screen. This tutorial explains how to print text using diffferent fonts. Alternatively, I used [this cool Processing library to draw those nice vector fonts](http://www.foobarquarium.de/blog/processing/MovingLetters/).
+- If you want to add sound effects, I made mine using [BFXR](http://www.bfxr.net/). [This tutorial]((http://code.compartmental.net/tools/minim/quickstart/) will explain how to use the Minim library to play sound effects in Processing.
+- Print the score to the screen. [This tutorial](https://processing.org/tutorials/text/) explains how to print text using diffferent fonts. Alternatively, I used [this cool Processing library to draw those nice vector fonts](http://www.foobarquarium.de/blog/processing/MovingLetters/).
 
 Upload screenshots of your sketches to the slack and log on to Webcourses and do the MCQ for today.
