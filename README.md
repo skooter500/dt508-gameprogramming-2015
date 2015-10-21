@@ -129,11 +129,15 @@ Upload images of your sketches to the slack. Log onto webcourses and complete to
 
 - [Program we wrote to draw a spiral](processing/spiral)
 - [Program plot the sine wave](processing/sinewave)
+- Making Spirals in Processing lecture:
+
+	[![YouTube](http://img.youtube.com/vi/wVivMDVRs3I/0.jpg)](https://www.youtube.com/watch?v=wVivMDVRs3I)
+ 
 
 ## Lab
 - Here is a little Processing sketch I wrote that does something nice with the sine wave. Click the image to see the video. I could probably do more cool stuff with it.
 
-[![YouTube](http://img.youtube.com/vi/uEGCKBTZL0c/0.jpg)](https://www.youtube.com/watch?v=uEGCKBTZL0c)
+	[![YouTube](http://img.youtube.com/vi/uEGCKBTZL0c/0.jpg)](https://www.youtube.com/watch?v=uEGCKBTZL0c)
 
 
 Today we are having a Spiral Jam
@@ -162,6 +166,11 @@ Upload your sketches to the Slack!
 # Week 5
 ## Lecture
 - [Bugzap Code](processing/bugzap)!
+
+- Making Bugzap in Processing Part 1
+
+	[![YouTube](http://img.youtube.com/vi/GSZI2TEIwa0/0.jpg)](https://www.youtube.com/watch?v=GSZI2TEIwa0)
+
 - Here is a video of what the finished game looks like:
 
 [![YouTube](http://img.youtube.com/vi/1If-kPm6MzM/0.jpg)](https://www.youtube.com/watch?v=1If-kPm6MzM)
@@ -191,3 +200,23 @@ Advanced!
 - Print the score to the screen. [This tutorial](https://processing.org/tutorials/text/) explains how to print text using diffferent fonts. Alternatively, I used [this cool Processing library to draw those nice vector fonts](http://www.foobarquarium.de/blog/processing/MovingLetters/).
 
 Upload screenshots of your sketches to the slack and log on to Webcourses and do the MCQ for today.
+
+## Week 6
+### Lecture
+- [The for loop in Processing](https://processing.org/reference/for.html)
+
+### Lab
+
+Use the for loop to make these patterns in processing:
+
+![Sketch](images/p5.png)
+
+![Sketch](images/p6.png)
+
+![Sketch](images/p7.png)
+
+![Sketch](images/p8.png)
+
+![Sketch](images/p9.png)
+
+Add colours and invent your own designs and upload your pictures to the slack! When you are done, log on to webcourses and do the MCQ.
