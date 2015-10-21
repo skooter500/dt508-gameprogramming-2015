@@ -219,4 +219,4 @@ Use the for loop to make these patterns in processing:
 
 ![Sketch](images/p9.png)
 
-Add colours and invent your own designs and upload your pictures to the slack! When you are done, log on to webcourses and do the MCQ.
+Add colours and invent your own designs and upload your pictures to the slack! There is no mcq today.
