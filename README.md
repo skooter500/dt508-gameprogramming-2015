@@ -2,6 +2,7 @@
 
 Resources
 ---------
+* [Assignments](assignment.md)
 * [Webcourses](http://dit.ie/webcourses)
 * [Slack](https://dt508-gameprogramming.slack.com/)
 * [Processing](http://processing.org)
@@ -220,3 +221,5 @@ Use the for loop to make these patterns in processing:
 ![Sketch](images/p9.png)
 
 Add colours and invent your own designs and upload your pictures to the slack! There is no mcq today.
+
+- [Solution to the lab](processing/flower)
