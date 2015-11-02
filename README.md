@@ -223,3 +223,9 @@ Use the for loop to make these patterns in processing:
 Add colours and invent your own designs and upload your pictures to the slack! There is no mcq today.
 
 - [Solution to the lab](processing/flower)
+
+## Week 7
+Review week
+
+## Week 8
+- [Lots of loops including the clock example](processing/lotsaloops)
