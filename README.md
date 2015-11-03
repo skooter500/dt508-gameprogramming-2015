@@ -228,4 +228,11 @@ Add colours and invent your own designs and upload your pictures to the slack! T
 Review week
 
 ## Week 8
+### Lecture
 - [Lots of loops including the clock example](processing/lotsaloops)
+- Video of the lecture:
+
+	[![YouTube](http://img.youtube.com/vi/fcHfysgK9iw/0.jpg)](https://www.youtube.com/watch?v=fcHfysgK9iw)
+	
+### Lab
+- Lab test 1
