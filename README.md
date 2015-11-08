@@ -284,3 +284,5 @@ This is the marking scheme:
 | Making the car move bottom to top | 20 |
 | Making the car switch between lanes | 20 |
 | Code style & elegance | 20 |
+
+- [Solution](https://github.com/skooter500/dt508_2015_labtest1)
