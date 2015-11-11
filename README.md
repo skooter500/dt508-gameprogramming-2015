@@ -304,7 +304,7 @@ Write and call the following methods in Processing
 
 Now take the [solution to the lab test](https://github.com/skooter500/dt508_2015_labtest1) and refactor it to use methods. I suggest you add the following methods:
 
-- ```drawCar(float x, float y, float l, float w)``` Take the car drawing code from the draw method and move it into this method. Use the x and y parameters to control where the car is drawn. The parameters l and w should control the length and the width of the car. For an additional challenge, draw wheels on the car line these:
+- ```drawCar(float x, float y, float l, float w)``` Take the car drawing code from the draw method and move it into this method. Use the x and y parameters to control where the car is drawn. The parameters l and w should control the length and the width of the car. For an additional challenge, draw wheels on the car.
 
 - ```drawRoad(float y, float w)``` Take the road drawing code from the draw method and move it into this method. The parameter y should control the center of the road and w should control the width of the car. 
 
