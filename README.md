@@ -316,12 +316,9 @@ Advanced!
 	
 	will draw:
 	
+	![Sketch](images/p9.png)	
 	
-- Write a method ```drawStar(float cx, float cy, float radius, float points)``` Calling this method as follows:
-
-	```drawStar(100, 100, 50, 5)```
-	
-	will draw:
+- Write a method ```drawStar(float cx, float cy, float radius, float points)```
 	
 Put screenshots of your sketches on slack and do the MCQ for today
 
