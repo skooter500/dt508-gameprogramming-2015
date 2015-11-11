@@ -292,7 +292,7 @@ This is the marking scheme:
 - Methods in processing
 - Video of the class:
 
-[![YouTube](http://img.youtube.com/vi/SGfvFkpx5eM/0.jpg)](https://www.youtube.com/watch?v=SGfvFkpx5eM)
+[![YouTube](http://img.youtube.com/vi/KInqZrmWyVI/0.jpg)](https://www.youtube.com/watch?v=KInqZrmWyVI)
 
 - [Some examples of methods in Processing](processing/methods)
 
