@@ -284,3 +284,41 @@ This is the marking scheme:
 | Making the car move bottom to top | 20 |
 | Making the car switch between lanes | 20 |
 | Code style & elegance | 20 |
+
+## Week 9
+### Lecture
+- Methods in processing
+- Video of the class:
+
+[![YouTube](http://img.youtube.com/vi/SGfvFkpx5eM/0.jpg)](https://www.youtube.com/watch?v=SGfvFkpx5eM)
+
+- [Some examples of methods in Processing](processing/methods)
+
+### Lab
+Write and call the following methods in Processing
+
+- A method that takes 3 float parameters and returns the minimum of the three parameters
+- A method called circleArea that takes the radius of a circle and returns the area of the circle
+
+Now take the [solution to the lab test](https://github.com/skooter500/dt508_2015_labtest1) and refactor it to use methods. I suggest you add the following methods:
+
+- ```drawCar(float x, float y, float l, float w)``` Take the car drawing code from the draw method and move it into this method. Use the x and y parameters to control where the car is drawn. The parameters l and w should control the length and the width of the car. For an additional challenge, draw wheels on the car line these:
+
+- ```drawRoad(float y, float w)``` Take the road drawing code from the draw method and move it into this method. The parameter y should control the center of the road and w should control the width of the car. 
+
+Advanced!
+
+- Write a method ```drawPolygon(float cx, float cy, float radius, float sides)``` Calling this method as follows:
+
+	```drawPolygon(100, 100, 50, 5)```
+	
+	will draw:
+	
+	
+- Write a method ```drawStar(float cx, float cy, float radius, float points)``` Calling this method as follows:
+
+	```drawStar(100, 100, 50, 5)```
+	
+	will draw:
+	
+Put screenshots of your sketches on slack and do the MCQ for today
