@@ -294,7 +294,7 @@ This is the marking scheme:
 
 [![YouTube](http://img.youtube.com/vi/KInqZrmWyVI/0.jpg)](https://www.youtube.com/watch?v=KInqZrmWyVI)
 
-- [Some examples of methods in Processing](processing/methods)
+- [Some examples of methods in Processing](processing/methods1)
 
 ### Lab
 Write and call the following methods in Processing
