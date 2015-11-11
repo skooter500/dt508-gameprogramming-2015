@@ -285,6 +285,8 @@ This is the marking scheme:
 | Making the car switch between lanes | 20 |
 | Code style & elegance | 20 |
 
+- [Solution](https://github.com/skooter500/dt508_2015_labtest1)
+
 ## Week 9
 ### Lecture
 - Methods in processing
@@ -322,3 +324,4 @@ Advanced!
 	will draw:
 	
 Put screenshots of your sketches on slack and do the MCQ for today
+
