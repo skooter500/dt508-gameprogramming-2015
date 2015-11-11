@@ -316,7 +316,7 @@ Advanced!
 	
 	will draw:
 	
-	![Sketch](images/p9.png)	
+	![Sketch](images/p10.png)	
 	
 - Write a method ```drawStar(float cx, float cy, float radius, float points)```
 	
