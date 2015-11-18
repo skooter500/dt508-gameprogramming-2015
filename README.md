@@ -322,3 +322,54 @@ Advanced!
 	
 Put screenshots of your sketches on slack and do the MCQ for today
 
+# Week 10
+## Lecture
+- [Arrays in Processing tutorial](https://processing.org/tutorials/arrays/)
+- [Arrays program we wrote on the class]()
+- Video of the class:
+
+	(Uploading...)
+
+# Lab
+
+Here is the rainfall data recorded at the Dublin Airport over 12 months of 2010:
+
+| Month | Amount in mm |
+|-------|--------------|
+| Jan | 45 |
+| Feb | 37 |
+| March | 55 |
+| April | 27 |
+| May | 38 |
+| June | 50 |
+| July | 79 |
+| August | 48 |
+| September | 104 |
+| October | 31 |
+| November | 100 |
+| December | 58 |
+
+Create a Processing sketch and do the following:
+
+- Allocate two arrays for storing the month names and the rainfall data
+- Calculate the average rainfall for that year
+- Calculate the month with the highest rainfall
+- Calculate the month with the lowest rainfall
+
+Now see if you can write code to generate the following graphs of the rainfall data:
+
+- A bar chart:
+
+	![Sketch](images/p11.png)
+	
+- A trend line:
+
+	![Sketch](images/p12.png)
+	
+Advanced:
+	
+Try and draw a pie chart!	
+	
+Hint! for the bar chart, it might be useful to allocate a third array to hold the colours. Youc an use random colours so that every month has a different colour.
+
+Upload screenshots of your sketches to slack and do the MCQ for today. 

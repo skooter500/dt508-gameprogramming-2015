@@ -3,6 +3,7 @@ void setup()
       background(0);
 
   size(500, 500);
+  // How to assign values to the elements of an array
   ages[0] = 22;
   ages[1] = 26;
   ages[2] = 22;
@@ -49,8 +50,8 @@ float[] xPos = new float[100];
 float[] yPos = new float[100];
 
 
+// How to detect multiple keypresses
 boolean[] keys = new boolean[512];
-
 void keyPressed()
 {
   keys[keyCode] = true;
@@ -63,9 +64,15 @@ void keyReleased()
 float x = 200, y = 200;
 void draw()
 {
-    stroke(255);
-   if (keys['W'])
+  // This is how you get trails!
+  fill(0,25);
+  rect(0,0,width,height);
+  fill(0);
+  stroke(255);
+  
+  if (keys['W'])
    {
+     y ++;
    }
    if (keys['A'])
    {
@@ -75,6 +82,11 @@ void draw()
    for (int i = 0 ; i < xPos.length ; i ++)
    {
      point(xPos[i], yPos[i]);
+     yPos[i] ++;
+     if (yPos[i] > height)
+     {
+       yPos[i] = 0;
+     }
    }
    /*for (int i = 0 ; i < 100 ; i ++)
    {
