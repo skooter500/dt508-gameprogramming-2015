@@ -330,7 +330,11 @@ Put screenshots of your sketches on slack and do the MCQ for today
 
 	(Uploading...)
 
-# Lab
+## Lab
+### Learning outcomes
+- Learn how tio allocate arrays
+- Learn how to store values in arrays
+- Practice iterating arrays
 
 Here is the rainfall data recorded at the Dublin Airport over 12 months of 2010:
 
