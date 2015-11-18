@@ -325,7 +325,7 @@ Put screenshots of your sketches on slack and do the MCQ for today
 # Week 10
 ## Lecture
 - [Arrays in Processing tutorial](https://processing.org/tutorials/arrays/)
-- [Arrays program we wrote on the class]()
+- [Arrays program we wrote on the class](processing/arrays)
 - Video of the class:
 
 	(Uploading...)
