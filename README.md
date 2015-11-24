@@ -25,6 +25,7 @@ Slack: https://dt508-gameprogramming.slack.com/
 - [The program we wrote in class](processing/intro/intro.pde)
 - [The contract for this course](http://1drv.ms/1DbmnG9)
 - Procedurally generated minnowforms video:
+
 	[![YouTube](http://img.youtube.com/vi/5G-PKD5GnlE/0.jpg)](https://www.youtube.com/watch?v=5G-PKD5GnlE)
 
 - NILL - One of my game jam games. It uses lots of nice come sci stuff like Perlin noise, procedural generation and binary search
