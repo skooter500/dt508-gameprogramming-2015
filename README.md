@@ -377,3 +377,16 @@ Try and draw a pie chart!
 Hint! for the bar chart, it might be useful to allocate a third array to hold the colours. Youc an use random colours so that every month has a different colour.
 
 Upload screenshots of your sketches to slack and do the MCQ for today. 
+
+# Week 11
+## Lecture
+- [Conway's Game of Life Wiki](http://www.conwaylife.com/wiki/Main_Page)
+- Video of the class:
+
+[![YouTube](http://img.youtube.com/vi/-3yAOgmtC-s/0.jpg)](https://www.youtube.com/watch?v=-3yAOgmtC-s)
+
+- Epic Conway's Game of Life:
+
+[![YouTube](http://img.youtube.com/vi/C2vgICfQawE/0.jpg)](https://www.youtube.com/watch?v=C2vgICfQawE)
+
+- [The code we wrote in the class](processing/life1)
