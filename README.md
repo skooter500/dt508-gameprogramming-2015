@@ -391,3 +391,30 @@ Upload screenshots of your sketches to slack and do the MCQ for today.
 [![YouTube](http://img.youtube.com/vi/C2vgICfQawE/0.jpg)](https://www.youtube.com/watch?v=C2vgICfQawE)
 
 - [The code we wrote in the class](processing/life1)
+
+## Lab
+
+Lets play with the Game of Life code we wrote in the class yesterday. We will finish off the Game of Life in class together on Monday, but feel free to [read the wiki](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) and figure it out for yourself before hand if you like!
+
+Today there are a few simple changes we can make...
+
+- Try and figure out the ```countLiveCells``` method. Finish it off and most importantly, set some cells to be true (in the 2D array) and then test the method by passing in some row and col values and making sure you get the right count back. In other words, do the calculation on pen and paper and then make sure the meothd returns the correct count.
+. The method ```void mousePressed()``` gets called in your sketch whenever the mouse is pressed. The method ```mouseDragged``` gets called whenever you hold the mouse down and move it over your sketch. You can get the mouse x and y coordinates by using the built in variables ```mouseX``` and ```mouseY```. You can use these methods to implement mouse drawing! To do this you need to calculate which row and column in the 2D array the mouse is over and then set this cell to be true 
+- When you press the c key, the board should clear. In otherwords, you should set every element in th 2D array to be false
+- When you press the r key, you should randomly set 50% of the elements to be true. To do this, you need to iterate through the array and generate a random number between 0.0f and 1.0f. If the number is > 0.5f, you set the element to be true otherwise set it to be false.   
+
+There some interesting starting patterns you can program also. You could write code so that when you press a number key it creates the starting pattern at the mouse x and y. I used the mouse x and y to be the top left of the shape.
+
+| Pattern | Description |
+|---------|-------------|
+|![Sketch](images/p13) | Gosper Gun |
+|![Sketch](images/p14) | Lightweight spaceship |
+|![Sketch](images/p15) | Tumbler |
+|![Sketch](images/p16) | Glider |
+|![Sketch](images/p17) | I'm not sure what this is called, but it makes amazing patterns |
+
+Here is a video of what my sketch looks like:
+
+[![YouTube](http://img.youtube.com/vi/72X38iT74As/0.jpg)](https://www.youtube.com/watch?v=72X38iT74As) 
+
+Upload your sketches to the slack! There may be an MCQ
