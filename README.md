@@ -407,11 +407,11 @@ There some interesting starting patterns you can program also. You could write c
 
 | Pattern | Description |
 |---------|-------------|
-|![Sketch](images/p13) | Gosper Gun |
-|![Sketch](images/p14) | Lightweight spaceship |
-|![Sketch](images/p15) | Tumbler |
-|![Sketch](images/p16) | Glider |
-|![Sketch](images/p17) | I'm not sure what this is called, but it makes amazing patterns |
+|![Sketch](images/p13.png) | Gosper Gun |
+|![Sketch](images/p14.png) | Lightweight spaceship |
+|![Sketch](images/p15.png) | Tumbler |
+|![Sketch](images/p16.png) | Glider |
+|![Sketch](images/p17.png) | I'm not sure what this is called, but it makes amazing patterns |
 
 Here is a video of what my sketch looks like:
 
