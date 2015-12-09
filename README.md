@@ -425,4 +425,4 @@ Upload your sketches to the slack! There may be an MCQ
 
 ## Lab
 - Complete Pong
-- [Read over the assignment brief for the Christmas assignment](assignmemnt.md)
+- [Read over the assignment brief for the Christmas assignment](assignment.md)
