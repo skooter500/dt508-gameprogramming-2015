@@ -399,7 +399,7 @@ Lets play with the Game of Life code we wrote in the class yesterday. We will fi
 Today there are a few simple changes we can make...
 
 - Try and figure out the ```countLiveCells``` method. Finish it off and most importantly, set some cells to be true (in the 2D array) and then test the method by passing in some row and col values and making sure you get the right count back. In other words, do the calculation yourself and then make sure the meothd returns the correct count.
-. The method ```void mousePressed()``` gets called in your sketch whenever the mouse is pressed. The method ```mouseDragged``` gets called whenever you hold the mouse down and move it over your sketch. You can get the mouse x and y coordinates by using the built in variables ```mouseX``` and ```mouseY```. You can use these methods to implement mouse drawing. To do this you need to calculate which row and column in the 2D array the mouse is over and then set this cell to be true. 
+- The method ```void mousePressed()``` gets called in your sketch whenever the mouse is pressed. The method ```mouseDragged``` gets called whenever you hold the mouse down and move it over your sketch. You can get the mouse x and y coordinates by using the built in variables ```mouseX``` and ```mouseY```. You can use these methods to implement mouse drawing. To do this you need to calculate which row and column in the 2D array the mouse is over and then set this cell to be true. 
 - When you press the c key, the board should clear. In otherwords, you should set every element in th 2D array to be false.
 - When you press the r key, you should randomly set 50% of the elements to be true. To do this, you need to iterate through the array and generate a random number between 0.0f and 1.0f. If the number is > 0.5f, you set the element to be true otherwise set it to be false.   
 
@@ -418,3 +418,11 @@ Here is a video of what my sketch looks like:
 [![YouTube](http://img.youtube.com/vi/72X38iT74As/0.jpg)](https://www.youtube.com/watch?v=72X38iT74As) 
 
 Upload your sketches to the slack! There may be an MCQ
+
+# Week 12
+## Lecture
+- [Pong work in progress from Monday's class](processing/pong)
+
+## Lab
+- Complete Pong
+- [Read over the assignment brief for the Christmas assignment](assignmemnt.md)
