@@ -426,3 +426,4 @@ Upload your sketches to the slack! There may be an MCQ
 ## Lab
 - Complete Pong
 - [Read over the assignment brief for the Christmas assignment](assignment.md)
+- [Please give me some feedback on this semester](https://docs.google.com/forms/d/1MsU9X1XX1x0qaAvqxWyAcNyEeMuRyzuBVcPg7YP7YOU/viewform)
