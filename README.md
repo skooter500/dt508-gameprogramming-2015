@@ -19,6 +19,34 @@ Email: bryan.duggan@dit.ie
 Twitter: [@skooter500](http://twitter.com/skooter500)
 Slack: https://dt508-gameprogramming.slack.com/
 
+
+# Semester 2
+# Week 1
+## Lecture
+- [Lecture notes all about numbers systems & computers](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!98126&authkey=!APkbdllEVMe0DLQ&ithint=file%2cppt). This is a lot more information than you probably need!
+
+## Lab
+
+Bring your work on the assignment along to show me. Also here are some number theory problems you can try:
+
+1. What is 100001000 in decimal?
+2. How is 270 stored in binary?
+3. Is bit six set or cleared when 270 is stored in binary? Bits are numbered from right to left starting from 0.
+4. How many bits are required to store 270 in binary ?
+5. Aliens have just landed in DIT. Amazingly, they use ASCII codes for representing characters, but their ship’s computers use trinary (base 3) numbers and their keyboards user pendadecimal (Base 5) characters representing 0, 1, 2,3, 4
+
+		You have received the following message from the aliens
+		```
+		2222
+		2120
+		2102
+		2111
+		2120
+		```	
+		
+		Decode it!
+
+# Semester 1
 # Week 1
 ## Lecture
 - [Introduction slides](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!263972&authkey=!AK1asYNZOHgqEC0&ithint=file%2cpptx)
