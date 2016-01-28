@@ -35,7 +35,7 @@ Bring your work on the assignment along to show me. Also here are some number th
 4. How many bits are required to store 270 in binary ?
 5. Aliens have just landed in DIT. Amazingly, they use ASCII codes for representing characters, but their ship’s computers use trinary (base 3) numbers and their keyboards user pendadecimal (Base 5) characters representing 0, 1, 2,3, 4
 
-		You have received the following message from the aliens:
+You have received the following message from the aliens:
 		
 		```
 		2222
@@ -45,7 +45,7 @@ Bring your work on the assignment along to show me. Also here are some number th
 		2120
 		```	
 		
-		Decode it!
+Decode it!
 
 # Semester 1
 # Week 1
