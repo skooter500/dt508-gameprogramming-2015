@@ -18,12 +18,21 @@ Resources
 Email: bryan.duggan@dit.ie
 Twitter: [@skooter500](http://twitter.com/skooter500)
 Slack: https://dt508-gameprogramming.slack.com/
-
-
 # Semester 2
+
+# Week 2
+## Lecture
+- No class because of the strike
+
+## Lab
+
+
 # Week 1
 ## Lecture
 - [Lecture notes all about numbers systems & computers](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!98126&authkey=!APkbdllEVMe0DLQ&ithint=file%2cppt). This is a lot more information than you probably need!
+- Video of the class about binary numbers:
+
+	[![YouTube](http://img.youtube.com/vi/obvBaoGve98/0.jpg)](https://www.youtube.com/watch?v=obvBaoGve98)
 
 ## Lab
 
@@ -37,13 +46,13 @@ Bring your work on the assignment along to show me. Also here are some number th
 
 You have received the following message from the aliens:
 		
-		```
-		2222
-		2120
-		2102
-		2111
-		2120
-		```	
+```
+2222
+2120
+2102
+2111
+2120
+```	
 		
 Decode it!
 
@@ -92,8 +101,6 @@ Here are two shapes you can draw:
 ![Sketch](images/p1.png)
 
 Try experimenting with colours!
-
-Feel free to experiment with colour!  
 
 When you are finished with these exercises, [log onto webcourses](http://dit.ie/webcourses) and complete the MCQ for this week
 
