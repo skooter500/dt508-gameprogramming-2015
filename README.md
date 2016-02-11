@@ -20,8 +20,10 @@ Twitter: [@skooter500](http://twitter.com/skooter500)
 Slack: https://dt508-gameprogramming.slack.com/
 # Semester 2
 ## Week 3
+
 ### Lecture
 - Hexadecimal numbers and 2's complement 
+- [Lecture notes all about numbers systems & computers](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!98126&authkey=!APkbdllEVMe0DLQ&ithint=file%2cppt). 
 - There are lots of decimal/binary/hex converters online, [like this one](http://www.exploringbinary.com/twos-complement-converter/)
 
 ### Lab
