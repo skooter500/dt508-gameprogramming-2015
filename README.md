@@ -19,6 +19,28 @@ Email: bryan.duggan@dit.ie
 Twitter: [@skooter500](http://twitter.com/skooter500)
 Slack: https://dt508-gameprogramming.slack.com/
 # Semester 2
+## Week 3
+### Lecture
+- Hexadecimal numbers and 2's complement 
+- There are lots of decimal/binary/hex converters online, [like this one](http://www.exploringbinary.com/twos-complement-converter/)
+
+### Lab
+Some 2's complement problems for you to try:
+
+1. Convert 100 & 58 to binary.
+2. Convert -58 to binary two’s compliment notation.
+3. Subtract 58 from 100 using binary 2’s compliment arithmetic
+4. What is 10000100 in decimal ?
+5. How is 270 stored in binary ?
+6. Is bit six set or cleared when 270 is stored in binary ?
+7. How many bits are required to store 270 in binary ?
+8. Add 13 and 6 in binary. First translate into binary.
+
+If you haven't already tried it, try the programming task from last week. If you have completed it already, then here is a variation for you to try!
+
+[![YouTube](http://img.youtube.com/vi/5bNeGb0LzLk/0.jpg)](https://www.youtube.com/watch?v=5bNeGb0LzLk)
+
+In this sketch we have 24 bits instead of 16 and what I have done is used the first 8 bits to represent red, the next 8 bits to represent green and the last 8 bits to represent blue. I can change the background colour by clicking on the appropriate bits. You should try last week's lab first before attempting this lab. Do try last weeks lab though. Its good for your brain. Trust me! Feel free to work in groups to figure it out.
 
 # Week 2
 ## Lecture
