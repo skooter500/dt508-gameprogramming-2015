@@ -18,7 +18,48 @@ Resources
 Email: bryan.duggan@dit.ie
 Twitter: [@skooter500](http://twitter.com/skooter500)
 Slack: https://dt508-gameprogramming.slack.com/
+
 # Semester 2
+
+## Week 4
+- Lecture video all about PVectors, pushMatrix, popMatrix, encapsulation, constructors, object references
+ 
+  [![YouTube](http://img.youtube.com/vi/XwniJyTIdec/0.jpg)](https://www.youtube.com/watch?v=XwniJyTIdec)
+
+- [The program we wrote in the class](processing/classes)
+
+## Lab
+### Learning outcomes
+- Practice creating new classes, with fields, methods and constructors.
+
+Get the code we made yesterday in the class. You can download it [from here](processing/classes1). 
+
+This is what your final sketch from today might look like if you get all the parts completed:
+
+[![YouTube](http://img.youtube.com/vi/u_cQGeBqfJk/0.jpg)](https://www.youtube.com/watch?v=u_cQGeBqfJk)
+
+Study the code from yesterday and make sure you understand the following concepts:
+
+- What a class is
+- What an object (or instance of a class) is
+- What fields are
+- What methods are
+- How to call methods and access the fields of a class
+- What a constructor looks like and does
+- How the ship class we made yesterday moves and rotates.
+
+Google for tutorials if you need them.
+
+Create a new class called AIShip with similar fields and methods to the Ship class we made yesterday. Instead of being controlled by the keyboard, the AI ship should move around the outside of the screen by itself like in the video above.
+
+Remember! The direction of movement is controlled by the *theta* field.
+Dont forget to instantiate the class and call it's methods.
+
+Advanced:
+
+Create a class that draws a random Star. See if you can figure out what fields it will need and what the methods should do to emulate the Stars in the video. 
+Once you have one Star working, you can create an array of 5 of them. If you want to be extra ambitious, you can use an [ArrayList](https://processing.org/reference/ArrayList.html). 
+
 ## Week 3
 
 ### Lecture
