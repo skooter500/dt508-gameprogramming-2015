@@ -68,3 +68,32 @@ Rules!
 - The date for submission is before the lab, the week of 1 Feb 2016. 
 - All assignment submissions must be demoed in the lab that week.
 - If you need to submit an assignment late, you must submit a PC/1 form to the exams office.
+
+Assignment 3
+
+Assignment 3
+============
+
+Come up with an idea for a game and and implement it in Processing. I suggest you use a game you are making for one of your other subjects on this course. For example a board game or card game. You must make *everything* yourself. Game design, Sprites (if you want to use sprites), audio and programming. I expect you do have to do some self directed learning on this project and include stuff you havent learned in my class. In addition to submitting your game and demoing in the class I need each person to submit two videos! 
+
+- A gameplay video I can use to make a showreel from the class
+- A max 10 minute video tutorial on something new you learned when making the assignment
+
+This is worth a flat 20% of your mark for this assignment. You should use git to manage your code on the assignment    
+
+Marking Scheme:
+Video: 15% Complexity:30% Project management: 30% Visuals: 25%
+
+Submission dates:
+- 10 March - Short game design document written in markdown and your git hub link
+- 14 April Project submission and demos. Submit git link & video link via Google docs 
+
+Rubric:
+
+| Grade | Description |
+| ------|-------------|
+| First | A project that looks great. All the art and is 100% procedural or self drawn and looks beautiful. There a significant amount of clever animation or gameplay (if the project is a game). For example multiple "modes" or "screens". The assignment has lots of functionality. There is depth to the assignment. For example, progression and powerups. The code is organised into classes. There is a lot of novelty and originality. All the code is written by the you. You will have used PVectors, transforms and classes to create autonomous elements in the assignment. You will loading content from text files. You will have used git extensively. Your project will significant amount of new code - not just variations on stuff I wrote. Similar to the complexity of tower defense. Everything works. > 40 git checkins|
+| 2.1 | The project looks good. There is a some animation or gameplay. You put in a good effort. Some features may not be complete or entirely working. Probably no file IO, but there should be while loops, for loops if statements etc to control aspects of the assignment. Complexity of a shooter like space invaders or asteroids or snake. A lot of code from my examples, modified. 20-40 git checkins |
+| 2.2 | The project looks so so, but is pretty basic. There should be some animation or gameplay but significant issues that you couldn't resolve. All the movement and animation code will be pretty basic for example colours changing each frame or movement controlled by variables that just update each frame. Little or no control code. There is not much code, maybe a page or two. Pong. Between 10 and 20 checkins |
+| Pass | All code in one file. Around a hundred lines of code. Looks like it could have been completed in an hour or two. Mostly drawing code, little or no controling code. Little or no functionality. Non-working pong. Lots of code acquired from other sources. < 10 checkins |
+| Fail | Something very basic that looks like it could have been completed in an hour. Just drawing code, no control code. The assignment has no interactivity. Significant unaddressed technical problems. No git usage.  |

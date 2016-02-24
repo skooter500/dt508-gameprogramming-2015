@@ -60,6 +60,8 @@ Advanced:
 Create a class that draws a random Star. See if you can figure out what fields it will need and what the methods should do to emulate the Stars in the video. 
 Once you have one Star working, you can create an array of 5 of them. If you want to be extra ambitious, you can use an [ArrayList](https://processing.org/reference/ArrayList.html). 
 
+- [Solution to the lab](processing/classes2)
+
 ## Week 3
 
 ### Lecture
