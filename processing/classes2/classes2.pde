@@ -2,7 +2,7 @@ void setup()
 {
   size(500, 500);
   
-  ship = new Ship(30, 500);
+  ship = new Ship(width / 2, height / 2);
   aiShip = new AIShip(50, 50);
   
   // Add 5 random stars

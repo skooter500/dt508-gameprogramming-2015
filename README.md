@@ -83,7 +83,7 @@ You can calculate the distance between two PVectors by calling ```PVector.dist``
 PVector.dist(b.pos, aiShip.pos)
 ```
 
-When you are done, login to webcourses and do the MCQ
+When you are done, login to webcourses and do the MCQ. Upload some pictures to the slack. It needs a splash of colour!
 
 ## Week 4
 - Lecture video all about PVectors, pushMatrix, popMatrix, encapsulation, constructors, object references
