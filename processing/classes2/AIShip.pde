@@ -1,23 +1,16 @@
 // The class name starts with uppercase
-class AIShip
+class AIShip extends GameObject
 { 
-  PVector pos;
-  PVector forward;
-  float theta = 0.0f;
-  float w;
-  float halfW;
-  float speed = 5.0f;
-  color c; 
   
   AIShip()
   {
-    pos = new PVector(width / 2, height / 2);
-    forward = new PVector(0, -1);
-    w = 50;
-    halfW = w * 0.5f;
-    theta = 0.0f;     
+    super();
   }
   
+  AIShip(float x, float y)
+  {
+    super(x, y);
+  }
   
   // This OVERRIDES the update method from the superclass
   void update()

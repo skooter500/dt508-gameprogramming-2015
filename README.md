@@ -21,6 +21,70 @@ Slack: https://dt508-gameprogramming.slack.com/
 
 # Semester 2
 
+## Week 5
+- [All about Inheritance please read!](https://processing.org/examples/inheritance.html)
+- [Constructors](https://processing.org/examples/multipleconstructors.html)
+- [Constructor chaining](http://beginnersbook.com/2013/12/java-constructor-chaining-with-example/)
+- [ArrayLists in Processing](https://processing.org/reference/ArrayList.html)
+- [PVectors](https://processing.org/reference/PVector.html)
+- Video about inheritance and making Gameobjects in Processing:
+
+	[![YouTube](http://img.youtube.com/vi/5jnR-C6OqUQ/0.jpg)](https://www.youtube.com/watch?v=5jnR-C6OqUQ)
+
+- [The code we wrote in the class (bullets work in progress)](processing/classes2)
+
+## Lab
+
+### Learning outcomes
+- Understand how inheritance works and when to use it
+- Understand how to use constructors and constructor chaining
+- Learn how to use an ArrayList
+- Develop your computational thinking skills
+
+In today's lab, we will continue to work on the program we were working on in the class yesterday and last week. First thing to do is acquire the code we worked on in the class and study it carefully. Please take the time to look at the program and understand the following:
+
+- How the program used inheritance and what the advantage of this is
+- How constructors and constructor chaining is used in the program
+- How the program uses PVectors 
+- How the program uses an ArrayList to keep track of all the bullets. 
+
+I put some links to tutorials above that explain each of these features of Processing. Make sure and read them.
+
+Now modify the program in two ways:
+
+- You should get the bullets to be removed from the ArrayList when they go beyond the bounds of the screen. I found it useful to print out the size of the arraylist of bullets in the sketch draw method. It should be 0 initially and go up when the player presses SPACE and then go back down to 0 as the bullets go off the screen. Think carefully about where this code should go and why it should go there.
+- Modify the program to limit the number of bullets you can fire to 5 bullets per second. I could tell you how to do this, but then I would rob you of the joy of figuring it for yourself :-) Your best bet is to have a think about how to do this and try a few different strategies.
+- See if you can increase the speed of the bullets.
+
+Advanced!
+
+You could give the AI ship a "health" field and every time a bullet hits the AIship, it's health could decrease by one. Here is what the final sketch could look like:
+
+[![YouTube](http://img.youtube.com/vi/75uVSa8pQUc/0.jpg)](https://www.youtube.com/watch?v=75uVSa8pQUc)
+
+Some tips to help you:
+
+To get the *current* object, use ```this````. See [this article](https://processing.org/reference/this.html)!
+To remove something from an ArrayList, call ```remove``` on the ArrayList. If you get an ArrayIndexOutOfBounds exception, try changing your for loop to be something like this:
+
+```
+for (int i = bullets.size() -1 ; i >= 0  ; i --)
+  {
+    Bullet b = bullets.get(i);
+    b.update();
+    b.render(); 
+```
+
+Why will this fix the problem?
+
+You can calculate the distance between two PVectors by calling ```PVector.dist```. For example:
+
+```
+PVector.dist(b.pos, aiShip.pos)
+```
+
+When you are done, login to webcourses and do the MCQ
+
 ## Week 4
 - Lecture video all about PVectors, pushMatrix, popMatrix, encapsulation, constructors, object references
  

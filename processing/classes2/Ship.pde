@@ -1,13 +1,6 @@
 // The class name starts with uppercase
-class Ship
+class Ship extends GameObject
 {
-  PVector pos;
-  PVector forward;
-  float theta = 0.0f;
-  float w;
-  float halfW;
-  float speed = 5.0f;
-  color c; 
   
   
   // Constructor!!
@@ -15,12 +8,12 @@ class Ship
   // Name is always the same as the class
   Ship()
   {
-    // Constructor chaining. Call a constructor in the super class
-    pos = new PVector(width / 2, height / 2);
-    forward = new PVector(0, -1);
-    w = 50;
-    halfW = w * 0.5f;
-    theta = 0.0f;
+    super();    
+  }
+  
+  Ship(float x, float y)
+  {
+    super(x, y);
   }
  
   void update()
@@ -28,6 +21,12 @@ class Ship
     forward.x = sin(theta);
     forward.y = - cos(theta);
     forward.mult(speed);
+    
+    if (keys[' '])
+    {
+      Bullet b = new Bullet(pos.x, pos.y, theta);
+      bullets.add(b);
+    }
     
     if (keys[UP])
     {

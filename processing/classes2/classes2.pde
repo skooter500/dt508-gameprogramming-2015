@@ -2,8 +2,8 @@ void setup()
 {
   size(500, 500);
   
-  ship = new Ship();
-  aiShip = new AIShip();
+  ship = new Ship(30, 500);
+  aiShip = new AIShip(50, 50);
   
   // Add 5 random stars
   for (int i = 0 ; i < 5 ; i ++)
@@ -22,6 +22,7 @@ void setup()
 // The class name always starts with uppercase!!
 ArrayList<Star> stars = new ArrayList<Star>();
 
+
 Ship ship;
 AIShip aiShip;
 
@@ -36,6 +37,8 @@ void keyReleased()
 {
   keys[keyCode] = false;
 }
+
+ArrayList<Bullet> bullets = new ArrayList<Bullet>(); 
 
 void draw()
 {
@@ -54,5 +57,10 @@ void draw()
   aiShip.update();
   aiShip.render();
   
-  
+  for (int i = 0 ; i < bullets.size() ; i ++)
+  {
+    bullets.get(i).update();
+    bullets.get(i).render();
+    
+  }
 }
