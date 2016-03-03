@@ -24,7 +24,7 @@ Slack: https://dt508-gameprogramming.slack.com/
 ## Week 6
 - [ArrayLists in Processing](https://processing.org/reference/ArrayList.html)
 - [PVectors](https://processing.org/reference/PVector.html)
-- [The classes, inheritance and polymorphism example we made in the class](classes/polymorphism1)
+- [The classes, inheritance and polymorphism example we made in the class](processing/polymorphism1)
 
 ## Lab 
 
