@@ -63,7 +63,7 @@ How this should work is:
 
  - Now add code to the ```draw``` method of the main sketch file to get it to create the new particles. 
 
- This is a little one I made using stars that get created at the mouse position and move and rotate and get bigger and change colour. I didnt plan it this way, I got something working and just tinkered with it until I liked it and thats ok too. You can hear the Jazz Pigs playing in the background when I was coding this. Live jazz is great. They play every Wednesday in 4 Dane Lane. You should check them out.
+ This is a little one I made using stars that get created at the mouse position and move and rotate and get bigger and change colour. I didnt plan it this way, I got something working and just tinkered with it until I liked it and thats ok too.
 
 [![YouTube](http://img.youtube.com/vi/aBn7x2HS-2k/0.jpg)](https://www.youtube.com/watch?v=aBn7x2HS-2k)
 
