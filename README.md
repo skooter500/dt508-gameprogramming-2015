@@ -24,13 +24,13 @@ Slack: https://dt508-gameprogramming.slack.com/
 ## Week 6
 - [ArrayLists in Processing](https://processing.org/reference/ArrayList.html)
 - [PVectors](https://processing.org/reference/PVector.html)
-- [The classes, inheritance and polymorphism example we made in the class](processing\polymorphism1)
+- [The classes, inheritance and polymorphism example we made in the class](classes/polymorphism1)
 
 ## Lab 
 
 ### Learning Outcomes
 - Explore the concepts we learned in the class this week
-- Make some new classes that implement their own methods and fields
+- Make a new classe that implement it's own methods and fields
 
 Firstly, get the code we worked on in the class yesterday and take the time to look over it again and make sure you understand all the new keywords and concepts we have been learning. 
 
