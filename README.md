@@ -21,6 +21,54 @@ Slack: https://dt508-gameprogramming.slack.com/
 
 # Semester 2
 
+## Week 6
+- [ArrayLists in Processing](https://processing.org/reference/ArrayList.html)
+- [PVectors](https://processing.org/reference/PVector.html)
+- [The classes, inheritance and polymorphism example we made in the class](processing\polymorphism1)
+
+## Lab 
+
+### Learning Outcomes
+- Explore the concepts we learned in the class this week
+- Make some new classes that implement their own methods and fields
+
+Firstly, get the code we worked on in the class yesterday and take the time to look over it again and make sure you understand all the new keywords and concepts we have been learning. 
+
+A particle system is a system in a computer game that keeps track of lots of small objects called particles. The particle system knows where and how to make new particles. Also, every frame in the game, the particle system is responsible for ensuring that each particle gets updated and redrawn. The updates to each particle are often implemented using physics simulation. Each particle can have forces such as gravity applied and the new positions calculated.   
+
+Today lets have a particles jam and see what kind of crazy particle effects we can come up with.
+
+How this should work is:
+
+- Write down/draw
+  - What the particle should look like. THis will be the code in your draw method
+  - What it should do. This will be updated. For example, will it change colour, move, rotate or get bigger or smaller.
+  - What fields the Particle would need to implement this.
+  - What the draw method should do.
+  - What the update method should do to the variables each update.
+  - What causes the particle to get removed.
+- Now write down
+  - Where the particles are going to be emmitted from. For example, random positions, the top of the screen, the mouse position etc.
+  - How often should the be emmitted. For example, 10 per second
+  - How should this change over time. For example, do the new particles change colour or get bigger or whatever.
+
+  Do all of the above before you code. I suggest form a team of up to three people for this task.
+
+- You can start with the [code we made in the class]. Get this working and understand it!
+- Comment out the code ```gameObjects.add(new Player(100, 100));```
+- Create a new class called Particle that extends GameObject and implements the behaviour you worked out:
+  - Make fields, and render and update method. Dont forget, you can use frameCount and the % operator to make things only happen every few frames
+  - Make a constructor
+  - Dont forget to include code to remove the particle
+
+ - Now add code to the ```draw``` method of the main sketch file to get it to create the new particles. 
+
+ This is a little one I made using stars that get created at the mouse position and move and rotate and get bigger and change colour. I didnt plan it this way, I got something working and just tinkered with it until I liked it and thats ok too. You can hear the Jazz Pigs playing in the background when I was coding this. Live jazz is great. They play every Wednesday in 4 Dane Lane. You should check them out.
+
+[![YouTube](http://img.youtube.com/vi/aBn7x2HS-2k/0.jpg)](https://www.youtube.com/watch?v=aBn7x2HS-2k)
+
+ Upload pictures/videos to the Slack so I can see.
+
 ## Week 5
 - [All about Inheritance please read!](https://processing.org/examples/inheritance.html)
 - [Constructors](https://processing.org/examples/multipleconstructors.html)
