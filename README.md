@@ -21,20 +21,23 @@ Slack: https://dt508-gameprogramming.slack.com/
 
 # Semester 2
 
+## Easter
+- [Player, bullets & collisions example](processing/classes3)
+
 ## Week 6
 - [ArrayLists in Processing](https://processing.org/reference/ArrayList.html)
 - [PVectors](https://processing.org/reference/PVector.html)
 - [The classes, inheritance and polymorphism example we made in the class](processing/polymorphism1)
 
-## Lab 
+## Lab
 
 ### Learning Outcomes
 - Explore the concepts we learned in the class this week
 - Make a new classe that implement it's own methods and fields
 
-Firstly, get the code we worked on in the class yesterday and take the time to look over it again and make sure you understand all the new keywords and concepts we have been learning. 
+Firstly, get the code we worked on in the class yesterday and take the time to look over it again and make sure you understand all the new keywords and concepts we have been learning.
 
-A particle system is a system in a computer game that keeps track of lots of small objects called particles. The particle system knows where and how to make new particles. Also, every frame in the game, the particle system is responsible for ensuring that each particle gets updated and redrawn. The updates to each particle are often implemented using physics simulation. Each particle can have forces such as gravity applied and the new positions calculated.   
+A particle system is a system in a computer game that keeps track of lots of small objects called particles. The particle system knows where and how to make new particles. Also, every frame in the game, the particle system is responsible for ensuring that each particle gets updated and redrawn. The updates to each particle are often implemented using physics simulation. Each particle can have forces such as gravity applied and the new positions calculated.
 
 Today lets have a particles jam and see what kind of crazy particle effects we can come up with.
 
@@ -61,7 +64,7 @@ How this should work is:
   - Make a constructor
   - Dont forget to include code to remove the particle
 
- - Now add code to the ```draw``` method of the main sketch file to get it to create the new particles. 
+ - Now add code to the ```draw``` method of the main sketch file to get it to create the new particles.
 
  This is a little one I made using stars that get created at the mouse position and move and rotate and get bigger and change colour. I didnt plan it this way, I got something working and just tinkered with it until I liked it and thats ok too.
 
@@ -93,8 +96,8 @@ In today's lab, we will continue to work on the program we were working on in th
 
 - How the program used inheritance and what the advantage of this is
 - How constructors and constructor chaining is used in the program
-- How the program uses PVectors 
-- How the program uses an ArrayList to keep track of all the bullets. 
+- How the program uses PVectors
+- How the program uses an ArrayList to keep track of all the bullets.
 
 I put some links to tutorials above that explain each of these features of Processing. Make sure and read them.
 
@@ -120,7 +123,7 @@ for (int i = bullets.size() -1 ; i >= 0  ; i --)
   {
     Bullet b = bullets.get(i);
     b.update();
-    b.render(); 
+    b.render();
 ```
 
 Why will this fix the problem?
@@ -135,7 +138,7 @@ When you are done, login to webcourses and do the MCQ. Upload some pictures to t
 
 ## Week 4
 - Lecture video all about PVectors, pushMatrix, popMatrix, encapsulation, constructors, object references
- 
+
   [![YouTube](http://img.youtube.com/vi/XwniJyTIdec/0.jpg)](https://www.youtube.com/watch?v=XwniJyTIdec)
 
 - [The program we wrote in the class](processing/classes)
@@ -144,7 +147,7 @@ When you are done, login to webcourses and do the MCQ. Upload some pictures to t
 ### Learning outcomes
 - Practice creating new classes, with fields, methods and constructors.
 
-Get the code we made yesterday in the class. You can download it [from here](processing/classes1). 
+Get the code we made yesterday in the class. You can download it [from here](processing/classes1).
 
 This is what your final sketch from today might look like if you get all the parts completed:
 
@@ -169,16 +172,16 @@ Dont forget to instantiate the class and call it's methods.
 
 Advanced:
 
-Create a class that draws a random Star. See if you can figure out what fields it will need and what the methods should do to emulate the Stars in the video. 
-Once you have one Star working, you can create an array of 5 of them. If you want to be extra ambitious, you can use an [ArrayList](https://processing.org/reference/ArrayList.html). 
+Create a class that draws a random Star. See if you can figure out what fields it will need and what the methods should do to emulate the Stars in the video.
+Once you have one Star working, you can create an array of 5 of them. If you want to be extra ambitious, you can use an [ArrayList](https://processing.org/reference/ArrayList.html).
 
 - [Solution to the lab](processing/classes2)
 
 ## Week 3
 
 ### Lecture
-- Hexadecimal numbers and 2's complement 
-- [Lecture notes all about numbers systems & computers](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!98126&authkey=!APkbdllEVMe0DLQ&ithint=file%2cppt). 
+- Hexadecimal numbers and 2's complement
+- [Lecture notes all about numbers systems & computers](https://onedrive.live.com/redir?resid=AB603D769EDBF24E!98126&authkey=!APkbdllEVMe0DLQ&ithint=file%2cppt).
 - There are lots of decimal/binary/hex converters online, [like this one](http://www.exploringbinary.com/twos-complement-converter/)
 
 ### Lab
@@ -209,7 +212,7 @@ For this lab you will be making a sketch that allows the user to convert between
 
 [![YouTube](http://img.youtube.com/vi/GCziyTb0LF8/0.jpg)](https://www.youtube.com/watch?v=GCziyTb0LF8)
 
-The user should be able to click any one of the squares to "toggle" a bit on or off. The number in decimal should automatically change. For example, in the screenshot above, bits 0, 2 and 4 are turned on so the number is 1 + 4 + 16 = 21. 
+The user should be able to click any one of the squares to "toggle" a bit on or off. The number in decimal should automatically change. For example, in the screenshot above, bits 0, 2 and 4 are turned on so the number is 1 + 4 + 16 = 21.
 
 To complete the sketch you can use a boolean array. Read  [this article that explians how arrays work in Processing](http://www.processing.org/reference/Array.html). A boolean array is just an array where every element is either true or false.
 
@@ -225,8 +228,8 @@ void setup()
 {
   size(500, 500);
   centX = width / 2;
-  centY = height / 2;  
-  
+  centY = height / 2;
+
   // And set their values here
 }
 
@@ -235,7 +238,7 @@ void draw()
 {
   background(127);
   // Do some stuff here
-  
+
   int number = binaryToDecimal(bytes);
   // This is how you print text in Processing
   fill(255);
@@ -247,7 +250,7 @@ int binaryToDecimal(boolean[] bytes)
   int ret = 0;
 
   // Implement this method
-  
+
   return ret;
 }
 
@@ -260,13 +263,13 @@ void mousePressed()
 
 What I suggest you do is:
 
-- Implement the method ```int binaryToDecimal(boolean[] bytes)```. 
+- Implement the method ```int binaryToDecimal(boolean[] bytes)```.
 - Set some of the bits in the bits array to be true and test the method you wrote by printing out the value.
 - Write code in the ```draw()``` method to draw boxes to represent the bits. The box should be black only if the appropriate bit is true.
 - Write code in the ```mousePressed()``` method to calculate which if any box the user has pressed the mouse onto and toggle the appropriate bit.
 
 ### Bonus!
-- Write the decimalToBinary method that uses the divide by 2 technique to convert from a decimal number to a binary string 
+- Write the decimalToBinary method that uses the divide by 2 technique to convert from a decimal number to a binary string
 - Print the bit numbers over the boxes
 - Implement [2's complement](https://en.wikipedia.org/wiki/Two%27s_complement) (negative numbers).
 - Colours! Lights! Animations!
@@ -289,15 +292,15 @@ Bring your work on the assignment along to show me. Also here are some number th
 5. Aliens have just landed in DIT. Amazingly, they use ASCII codes for representing characters, but their ship’s computers use trinary (base 3) numbers and their keyboards user pendadecimal (Base 5) characters representing 0, 1, 2,3, 4
 
 You have received the following message from the aliens:
-		
+
 ```
 2222
 2120
 2102
 2111
 2120
-```	
-		
+```
+
 Decode it!
 
 # Semester 1
@@ -316,7 +319,7 @@ Decode it!
 
 - [NILL Sourcecode](http://github.com/skooter500/NILL)
 
-- Some Processing assignments from previous years: 
+- Some Processing assignments from previous years:
 
 	[![YouTube](http://img.youtube.com/vi/S575a92AsuQ/0.jpg)](https://www.youtube.com/watch?v=S575a92AsuQ)
 
@@ -351,14 +354,14 @@ When you are finished with these exercises, [log onto webcourses](http://dit.ie/
 # Week 2
 ## Lecture
 - [Processing sketch with a face that moves from left to right and back again using the if statement](processing/leftrightface)
-- Data types, the if statement and dynamic sketches in Processing video (from last year)  
+- Data types, the if statement and dynamic sketches in Processing video (from last year)
 
   [![YouTube](http://img.youtube.com/vi/Y0b9W3UJ2BU/0.jpg)](https://www.youtube.com/watch?v=Y0b9W3UJ2BU)
 
   - The best of this weeks videos (incomplete making the moving smiley face video)
 
  [![YouTube](http://img.youtube.com/vi/Wr_Ev0Xqh_U/0.jpg)](https://www.youtube.com/watch?v=Wr_Ev0Xqh_U)
- 
+
 ## Lab
 ### Learning Outcomes
 - Practice using variables in your sketches
@@ -384,7 +387,7 @@ Login to Webcourses and do the MCQ for today
 
   [![YouTube](http://img.youtube.com/vi/xkK5C7Xfx80/0.jpg)](https://www.youtube.com/watch?v=xkK5C7Xfx80)
 
-- [The trigonometry problem we worked on in the class](processing/kitetriangle) 
+- [The trigonometry problem we worked on in the class](processing/kitetriangle)
 
 ## Lab
 - [Try solving some of these trigonometry problems on pen and paper](http://www.tippcityschools.com/cms/lib6/OH01000855/Centricity/Domain/111/Acc%20Geom%20eDay%201.pdf)
@@ -392,9 +395,9 @@ Login to Webcourses and do the MCQ for today
 - Solve this trigonometry problem using pen and paper FIRST. Write a Processing sketch to solve it and draw the problem. In your solution, print the valuse for theta, o, a, and h to the screen:
 
 	A person is standing 200m from the base of a building looking up at the top of the building through a telescope. The telescope is tilted 48 degrees off the ground. How high is the building?
-	
+
 	Important
-	
+
 	- Declare varibles for all the values you need in order to solve this problem
 	- Assign values to the variables that you know
 	- Calculate the values that you don't know
@@ -402,7 +405,7 @@ Login to Webcourses and do the MCQ for today
 
 Advanced
 - Use the mouse to vary the distance of the base of the building
-	
+
 Upload images of your sketches to the slack. Log onto webcourses and complete today's MCQ
 
 # Week 4
@@ -414,7 +417,7 @@ Upload images of your sketches to the slack. Log onto webcourses and complete to
 - Making Spirals in Processing lecture:
 
 	[![YouTube](http://img.youtube.com/vi/wVivMDVRs3I/0.jpg)](https://www.youtube.com/watch?v=wVivMDVRs3I)
- 
+
 
 ## Lab
 - Here is a little Processing sketch I wrote that does something nice with the sine wave. Click the image to see the video. I could probably do more cool stuff with it.
@@ -431,18 +434,18 @@ Today we are having a Spiral Jam
 		- Variables
 		- sin, cos, tan
 		- angles
-		- Variable operations like addition, subtraction etc 
+		- Variable operations like addition, subtraction etc
 		- Colour methods and random colours
 		- line, ellipse, rect etc.
-	- Before you write any code decide using pen and paper:	
+	- Before you write any code decide using pen and paper:
 		- What variables you need
 		- Whether the variables should be local or global
 		- What happens to the variables each frame (what operations to perform)
 		- What to draw
 		- What decisions your program has to make - what if statements you need
-		
-A gold star to the team that produces the sketch of the best design and complexity. Think simplicity in the design of your code and only use the minimum onumber of variables to solve your problem. 
-		
+
+A gold star to the team that produces the sketch of the best design and complexity. Think simplicity in the design of your code and only use the minimum onumber of variables to solve your problem.
+
 Upload your sketches to the Slack!
 
 # Week 5
@@ -471,10 +474,10 @@ Complete Bugzap! When we finished up in the lecture, we had the player drawn, pl
 		frame --;
 	}
 	```
- 
- ```frameCount``` is a built in variable in Processing that tells you what frame you are on. At the start of the sketch, this will be 0 and then this variable advances by 1 each frame that gets drawn. Processing looks after doing this. You don't have to worry about it. I set the value of the frame variable to be 60. The % operator is called the modulo operator and it means the remainder when frameCount is divided by frame. This will cause the code to get executed once a second. I subtract 1 from frame to cause the bug to speed up. Every time I shoot the bug, I reset this variable back to 60. See [this article for more information on the modulo operator](https://processing.org/reference/modulo.html) and how it is used.    
- 
-- Shooting & scoring. Just draw a line for shooting. The line should be drawn to the top of the screen, or to to the bug's Y position if we are under the bug. Use an if statement to check to see if the player is under the bug and if so, add one to the score and reset the bug's position and the frame variable. 
+
+ ```frameCount``` is a built in variable in Processing that tells you what frame you are on. At the start of the sketch, this will be 0 and then this variable advances by 1 each frame that gets drawn. Processing looks after doing this. You don't have to worry about it. I set the value of the frame variable to be 60. The % operator is called the modulo operator and it means the remainder when frameCount is divided by frame. This will cause the code to get executed once a second. I subtract 1 from frame to cause the bug to speed up. Every time I shoot the bug, I reset this variable back to 60. See [this article for more information on the modulo operator](https://processing.org/reference/modulo.html) and how it is used.
+
+- Shooting & scoring. Just draw a line for shooting. The line should be drawn to the top of the screen, or to to the bug's Y position if we are under the bug. Use an if statement to check to see if the player is under the bug and if so, add one to the score and reset the bug's position and the frame variable.
 
 Advanced!
 - Add a splash screen and a game over screen
@@ -514,15 +517,15 @@ Review week
 - Video of the lecture:
 
 	[![YouTube](http://img.youtube.com/vi/fcHfysgK9iw/0.jpg)](https://www.youtube.com/watch?v=fcHfysgK9iw)
-	
+
 ### Lab Test
 
 #### Rules of the Test
 - This is an individual test. No collaboration or communication with other students during the test.
 - No use of Google/Facebook or any other external resources
-- You can only access the following websites during the test: 
-	- https://www.processing.org/reference/ 
-	- https://github.com/skooter500/dt508-gameprogramming-2015 
+- You can only access the following websites during the test:
+	- https://www.processing.org/reference/
+	- https://github.com/skooter500/dt508-gameprogramming-2015
 - You should start the test with a blank Processing sketch
 - Save OFTEN! If Processing crashes and you "loose everything" you will receive 0
 - At the end of the test, zip up the folder with your solution and submit through webcourses *only*. Do not email me solutions.
@@ -587,20 +590,20 @@ Now take the [solution to the lab test](https://github.com/skooter500/dt508_2015
 
 - ```drawCar(float x, float y, float l, float w)``` Take the car drawing code from the draw method and move it into this method. Use the x and y parameters to control where the car is drawn. The parameters l and w should control the length and the width of the car. For an additional challenge, draw wheels on the car.
 
-- ```drawRoad(float y, float w)``` Take the road drawing code from the draw method and move it into this method. The parameter y should control the center of the road and w should control the width of the car. 
+- ```drawRoad(float y, float w)``` Take the road drawing code from the draw method and move it into this method. The parameter y should control the center of the road and w should control the width of the car.
 
 Advanced!
 
 - Write a method ```drawPolygon(float cx, float cy, float radius, float sides)``` Calling this method as follows:
 
 	```drawPolygon(100, 100, 50, 5)```
-	
+
 	will draw:
-	
-	![Sketch](images/p10.png)	
-	
+
+	![Sketch](images/p10.png)
+
 - Write a method ```drawStar(float cx, float cy, float radius, float points)```
-	
+
 Put screenshots of your sketches on slack and do the MCQ for today
 
 # Week 10
@@ -646,18 +649,18 @@ Now see if you can write code to generate the following graphs of the rainfall d
 - A bar chart:
 
 	![Sketch](images/p11.png)
-	
+
 - A trend line:
 
 	![Sketch](images/p12.png)
-	
+
 Advanced:
-	
-Try and draw a pie chart!	
-	
+
+Try and draw a pie chart!
+
 Hint! for the bar chart, it might be useful to allocate a third array to hold the colours. Youc an use random colours so that every month has a different colour.
 
-Upload screenshots of your sketches to slack and do the MCQ for today. 
+Upload screenshots of your sketches to slack and do the MCQ for today.
 
 # Week 11
 ## Lecture
@@ -679,9 +682,9 @@ Lets play with the Game of Life code we wrote in the class yesterday. We will fi
 Today there are a few simple changes we can make...
 
 - Try and figure out the ```countLiveCells``` method. Finish it off and most importantly, set some cells to be true (in the 2D array) and then test the method by passing in some row and col values and making sure you get the right count back. In other words, do the calculation yourself and then make sure the meothd returns the correct count.
-- The method ```void mousePressed()``` gets called in your sketch whenever the mouse is pressed. The method ```mouseDragged``` gets called whenever you hold the mouse down and move it over your sketch. You can get the mouse x and y coordinates by using the built in variables ```mouseX``` and ```mouseY```. You can use these methods to implement mouse drawing. To do this you need to calculate which row and column in the 2D array the mouse is over and then set this cell to be true. 
+- The method ```void mousePressed()``` gets called in your sketch whenever the mouse is pressed. The method ```mouseDragged``` gets called whenever you hold the mouse down and move it over your sketch. You can get the mouse x and y coordinates by using the built in variables ```mouseX``` and ```mouseY```. You can use these methods to implement mouse drawing. To do this you need to calculate which row and column in the 2D array the mouse is over and then set this cell to be true.
 - When you press the c key, the board should clear. In otherwords, you should set every element in th 2D array to be false.
-- When you press the r key, you should randomly set 50% of the elements to be true. To do this, you need to iterate through the array and generate a random number between 0.0f and 1.0f. If the number is > 0.5f, you set the element to be true otherwise set it to be false.   
+- When you press the r key, you should randomly set 50% of the elements to be true. To do this, you need to iterate through the array and generate a random number between 0.0f and 1.0f. If the number is > 0.5f, you set the element to be true otherwise set it to be false.
 
 There some interesting starting patterns you can program also. You could write code so that when you press a number key it creates the starting pattern at the mouse x and y. I used the mouse x and y to be the top left of the shape.
 
@@ -695,7 +698,7 @@ There some interesting starting patterns you can program also. You could write c
 
 Here is a video of what my sketch looks like:
 
-[![YouTube](http://img.youtube.com/vi/72X38iT74As/0.jpg)](https://www.youtube.com/watch?v=72X38iT74As) 
+[![YouTube](http://img.youtube.com/vi/72X38iT74As/0.jpg)](https://www.youtube.com/watch?v=72X38iT74As)
 
 Upload your sketches to the slack! There may be an MCQ
 
