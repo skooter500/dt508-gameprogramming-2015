@@ -21,6 +21,15 @@ Slack: https://dt508-gameprogramming.slack.com/
 
 # Semester 2
 
+## Week 11
+- [The physics program we wrote in the class](processing\polymorphism1)
+- [The snake following program which has a bug!](processing\snakeFollow)
+
+## Lab
+
+Have a look at the snakeFollow program and see if you can figure out how it works and how to fix the bug. If you rotate the ship you will see it
+
+
 ## Week 10
 - [The first 3 chapters of the git manual. Please read this!](https://git-scm.com/documentation)
 
@@ -59,7 +68,7 @@ Basic stuff
 - Create a project in Processing and save it somewhere
 - Fire up the bash shell and use cd to navigate to the project folder
 - Type ```git init``` in the project folder to create an empty git repo. Notice that a new hidden folder called .git will appear in the folder
-- Create the project on your github account on github.com. Dont forget to create a .gitignore and a readme. 
+- Create the project on your github account on github.com. Dont forget to create a .gitignore and a readme.
 - Get the url of the new repo and type:
 	- ```git remote add origin THE_URL_OF_YOUR_REPO```
 - Type ```git pull origin master``` to get the changes from the server. Type ```la -a``` and you should see the new files listed.
@@ -76,19 +85,19 @@ Rolling back to a previous commit
 	commit 7ccd905733dc710ecf38b0431d1143528b5dc1c7
 	Author: skooter500 <skooter500@gmail.com>
 	Date:   Thu Apr 14 10:03:17 2016 +0100
-	
+
 	    Added todays lab
-	
+
 	commit 4b46bea9d2ccd434076310049a5553ccc241adc6
 	Author: Bryan Duggan <skooter500@gmail.com>
 	Date:   Fri Mar 25 12:55:44 2016 +0000
-	
+
 	    classes and bullets example
-	
+
 	commit 6e949c599f038209c9b22da99d5b014a7c47387a
 	Author: Bryan Duggan <skooter500@gmail.com>
 	Date:   Thu Mar 3 09:15:18 2016 +0000
-	
+
 	    broken link
 
 	```
@@ -114,10 +123,10 @@ Deleting files
 Branching
 - You can create multiple branches in git if you want to try new stuff without screwing up your project. In fact it is common to create a new branch every time you want to add a new feature and then merge the branch into the master branch when the feature is completed. Lets try this.
 - Type ```git checkout master``` to switch to the head of the master branch
-- Type ```git branch``` This shows you what branch you are currently on. You can also type ```git branch --all`` to show all the branches. 
+- Type ```git branch``` This shows you what branch you are currently on. You can also type ```git branch --all`` to show all the branches.
 - Type ```git checkout -b test_branch``` to create a new branch and switch to it
 - Make some changes to to your Processing sketch and save them
-- Add and commit these changes. 
+- Add and commit these changes.
 - To send this new branch to the server type:
 	- ```git push --set-upstream origin test_branch```
 	- ```git push```
@@ -130,8 +139,8 @@ Branching
 
 
 Dealing with merge conficts
-- Often, git will merge edits in files automatically, but merge conflicts can occur whenever commits have edits on the same line of the same file. This can happen even when only one person is working on a project. When this happens, git will tell you what files are causing problems and mark up the files with the changes from both commits. 
-- Give your team mate permission to commit to the repository. To do this, go to Settings | Collaborators and add their github id. Your team mate can clone the repository by typing:	
+- Often, git will merge edits in files automatically, but merge conflicts can occur whenever commits have edits on the same line of the same file. This can happen even when only one person is working on a project. When this happens, git will tell you what files are causing problems and mark up the files with the changes from both commits.
+- Give your team mate permission to commit to the repository. To do this, go to Settings | Collaborators and add their github id. Your team mate can clone the repository by typing:
 	- ```git clone THE_URL_OF_THE_REPO```
 - Now both of you should make some edits to the same file. Make some edits on the same lines of the file and on different lines of the file
 - Your team mate should add, commit an push their changes. You can jump onto the github website and verify that their changes have been pushed
@@ -163,7 +172,7 @@ Dealing with merge conficts
 	=======
 	// Hello from Tara!
 	>>>>>>> c365e047b35d76bf3b2d48f38980db4b68746825
-	
+
 	void setup()
 	{
 	}
@@ -173,7 +182,7 @@ Dealing with merge conficts
 Merge conflicts on binary files
 - Git can merge text files, with source code, but it cant merge binary files such as images. Lets see how to handle this
 - Add an image to your project and have your team mate, commit and push this change.
-- Have your team mate pull the repo to get the image. 
+- Have your team mate pull the repo to get the image.
 - Now you should both have the image. Both of you should edit the image and save the changes
 - Both you and your team mate should add and commit this change, but have your team mate push first
 - When you try to push, you will get a message saying that your push has been rejected and you need to do a pull first

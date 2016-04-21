@@ -7,7 +7,7 @@ void setup()
   
   GameObject next = ship;
   float gap = 30;
-  for (int i = 0 ; i < 1 ; i ++)
+  for (int i = 0 ; i < 5 ; i ++)
   {
     SnakePart sp = new SnakePart(next.pos.x, next.pos.y + gap, next);
     gameObjects.add(sp);
