@@ -22,7 +22,8 @@ Slack: https://dt508-gameprogramming.slack.com/
 # Semester 2
 
 ## Easter
-- [Player, bullets & collisions example](processing/classes3)
+- [Physics example](processing/physics)
+- [The git Manual](https://git-scm.com/documentation)
 
 ## Week 6
 - [ArrayLists in Processing](https://processing.org/reference/ArrayList.html)

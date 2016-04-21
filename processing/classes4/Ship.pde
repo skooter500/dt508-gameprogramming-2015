@@ -4,7 +4,6 @@ class Ship extends GameObject
   PVector force;
   PVector acceleration;
   float mass;
-  float timeDelta = 1.0f / 60.0f;
   
   // Constructor!!
   // HAS NO RETURN TYPE
@@ -35,7 +34,7 @@ class Ship extends GameObject
       PVector bulletPos = pos.get();
       bulletPos.add(PVector.mult(forward, 30)); // Start the bullet 30 units in front of the player
       Bullet b = new Bullet(bulletPos.x, bulletPos.y, theta);
-      bullets.add(b);
+      gameObjects.add(b);
       ellapsed = 0;
     }
     ellapsed ++;
