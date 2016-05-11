@@ -21,6 +21,8 @@ Slack: https://dt508-gameprogramming.slack.com/
 
 # Semester 2
 
+- [Lab test 2](labtest2.md)
+
 ## Week 11
 - [The physics program we wrote in the class](processing\polymorphism1)
 - [The snake following program which has a bug!](processing\snakeFollow)
